@@ -1,7 +1,7 @@
 import express from "express";
 
 const app = express();
-const port = 1700;
+const port = 9100;
 app.use(express.static("public"));
 app.get("/", (req, res) => {
   res.render("index.ejs");
